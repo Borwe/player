@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/brian/workspace/player/bin",
+  "command": "/usr/bin/c++   -I/home/brian/workspace/player/./include -I/home/brian/Downloads/c++Libs/PDCurses    -o CMakeFiles/player.dir/src/main.cpp.o -c /home/brian/workspace/player/src/main.cpp",
+  "file": "/home/brian/workspace/player/src/main.cpp"
+},
+{
+  "directory": "/home/brian/workspace/player/bin",
+  "command": "/usr/bin/c++   -I/home/brian/workspace/player/./include -I/home/brian/Downloads/c++Libs/PDCurses    -o CMakeFiles/player.dir/src/mainwindow.cpp.o -c /home/brian/workspace/player/src/mainwindow.cpp",
+  "file": "/home/brian/workspace/player/src/mainwindow.cpp"
+},
+{
+  "directory": "/home/brian/workspace/player/bin",
+  "command": "/usr/bin/c++   -I/home/brian/workspace/player/./include -I/home/brian/Downloads/c++Libs/PDCurses    -o CMakeFiles/player.dir/src/vlcplayer.cpp.o -c /home/brian/workspace/player/src/vlcplayer.cpp",
+  "file": "/home/brian/workspace/player/src/vlcplayer.cpp"
+}
+]
