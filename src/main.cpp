@@ -1,5 +1,5 @@
 #include<iostream>
-#include "../include/mainwindow.h"
+#include "mainwindow.h"
 
 using std::cout; using std::cin;
 using std::endl; using std::cerr;

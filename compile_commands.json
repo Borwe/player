@@ -1,17 +1,19 @@
 [
 {
-  "directory": "/home/brian/workspace/player/bin",
-  "command": "/usr/bin/c++   -I/home/brian/workspace/player/./include -I/home/brian/Downloads/c++Libs/PDCurses    -o CMakeFiles/player.dir/src/main.cpp.o -c /home/brian/workspace/player/src/main.cpp",
-  "file": "/home/brian/workspace/player/src/main.cpp"
+  "directory": "D:/Brian/Projects/build-player-Desktop_Qt_5_12_1_MSVC2017_64bit-Default",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\HostX86\\x64\\cl.exe  /nologo /TP  -ID:\\Brian\\Projects\\player\\.\\include -ID:\\Brian\\Downloads\\c++Libs\\PDCurses -ID:\\Brian\\Downloads\\c++Libs\\vlc-3.0\\include -IC:\\local\\boost_1_71_0  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\player.dir\\src\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Brian\\Projects\\player\\src\\main.cpp",
+  "file": "D:\\Brian\\Projects\\player\\src\\main.cpp"
 },
+
 {
-  "directory": "/home/brian/workspace/player/bin",
-  "command": "/usr/bin/c++   -I/home/brian/workspace/player/./include -I/home/brian/Downloads/c++Libs/PDCurses    -o CMakeFiles/player.dir/src/mainwindow.cpp.o -c /home/brian/workspace/player/src/mainwindow.cpp",
-  "file": "/home/brian/workspace/player/src/mainwindow.cpp"
+  "directory": "D:/Brian/Projects/build-player-Desktop_Qt_5_12_1_MSVC2017_64bit-Default",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\HostX86\\x64\\cl.exe  /nologo /TP  -ID:\\Brian\\Projects\\player\\.\\include -ID:\\Brian\\Downloads\\c++Libs\\PDCurses -ID:\\Brian\\Downloads\\c++Libs\\vlc-3.0\\include -IC:\\local\\boost_1_71_0  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\player.dir\\src\\mainwindow.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Brian\\Projects\\player\\src\\mainwindow.cpp",
+  "file": "D:\\Brian\\Projects\\player\\src\\mainwindow.cpp"
 },
+
 {
-  "directory": "/home/brian/workspace/player/bin",
-  "command": "/usr/bin/c++   -I/home/brian/workspace/player/./include -I/home/brian/Downloads/c++Libs/PDCurses    -o CMakeFiles/player.dir/src/vlcplayer.cpp.o -c /home/brian/workspace/player/src/vlcplayer.cpp",
-  "file": "/home/brian/workspace/player/src/vlcplayer.cpp"
+  "directory": "D:/Brian/Projects/build-player-Desktop_Qt_5_12_1_MSVC2017_64bit-Default",
+  "command": "C:\\PROGRA~2\\MICROS~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\HostX86\\x64\\cl.exe  /nologo /TP  -ID:\\Brian\\Projects\\player\\.\\include -ID:\\Brian\\Downloads\\c++Libs\\PDCurses -ID:\\Brian\\Downloads\\c++Libs\\vlc-3.0\\include -IC:\\local\\boost_1_71_0  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\player.dir\\src\\vlcplayer.cpp.obj /FdTARGET_COMPILE_PDB /FS -c D:\\Brian\\Projects\\player\\src\\vlcplayer.cpp",
+  "file": "D:\\Brian\\Projects\\player\\src\\vlcplayer.cpp"
 }
 ]

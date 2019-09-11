@@ -143,7 +143,7 @@ void MainWindow::beginPlayer(){
     //populate view with playable extention files as per users choice
     for(auto &item:*this->fileListWithExtentions){
         bfs::path file(item.c_str());
-        wprintw(playList,file.filename().c_str());
+        wprintw(playList,file.filename().string().c_str());
         wmove(playList,++position,0);
         wrefresh(playList);
     }
@@ -324,7 +324,7 @@ sSstring MainWindow::getFileExtentions(){
     for(auto &file:*filesRead){
         bfs::path p(file);
         if(p.has_extension()){
-            extentions->insert(p.extension().c_str());
+            extentions->insert(p.extension().string());
         }
     }
     this->fileExtentions=extentions;
@@ -338,7 +338,7 @@ sVstring MainWindow::readFiles(){
 
     bfs::directory_iterator currdir(bfs::current_path());
     for(auto &file:currdir){
-        files->push_back(file.path().c_str());
+        files->push_back(file.path().string());
     }
 
     this->filesList=files;

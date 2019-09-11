@@ -1,3 +1,0 @@
-/home/brian/workspace/player/bin/CMakeFiles/rebuild_cache.dir
-/home/brian/workspace/player/bin/CMakeFiles/player.dir
-/home/brian/workspace/player/bin/CMakeFiles/edit_cache.dir
