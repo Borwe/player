@@ -196,7 +196,9 @@ void MainWindow::beginPlayer(){
             //to start playing from selected file
             case ' ':
             case '\n':
-            case '\r': cout<<"Play from current position"<<endl;break;
+            case '\r':cout<<"position: "<<position<<" ITEM: "<<fileListWithExtentions->at(position-1)<<" PLAYING..."<<endl;
+                      this->player.play(fileListWithExtentions->at(position-1));
+                      break;
         }
     }
 }

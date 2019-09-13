@@ -1,0 +1,5 @@
+# files to ignore
+
+*.swp
+compile_commands.json
+bin\

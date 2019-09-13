@@ -11,6 +11,7 @@
 #include <vector>
 #include <set>
 #include <boost/filesystem.hpp>
+#include <vlcplayer.h>
 
 using std::cout; using std::endl;
 using std::cerr;
@@ -113,6 +114,8 @@ private:
     sSstring fileExtentions;
     //for holding the selected type for videos to pick from
     string extensionType;
+
+    VLCPlayer player;
 };
 
 
